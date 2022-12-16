@@ -1,0 +1,77 @@
+.contact {
+  background-color: var(--bg-color);
+}
+
+.contact .d-flex {
+  align-items: flex-start;
+}
+
+.contact-form {
+  width: 50%;
+  margin-bottom: 80px;
+  font-family: var(--font-gothic);
+}
+
+.contact-form form {
+  padding-top: 70px;
+  font-size: 16px;
+}
+
+.contact-form label {
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  max-width: 588px;
+  margin-top: 13px;
+  margin-bottom: 30px;
+  padding: 12px 0px 12px 15px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--bg-color);
+  color: var(--gray-color);
+  resize: vertical;
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 158px;
+}
+
+.map {
+  width: 50%;
+  padding-top: 105px;
+}
+
+.map iframe {
+  max-width: 588px;
+  height: 500px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .contact .d-flex {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .contact .d-flex {
+    flex-direction: column;
+  }
+
+  .contact-form{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .map{
+    padding: 50px 0;
+    width: 100%;
+  }
+
+  .map iframe {
+    height: 200px;
+  }
+}

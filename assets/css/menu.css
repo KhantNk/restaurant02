@@ -1,0 +1,131 @@
+.menu-pg .tab-menu-list {
+  position: relative;
+  background-color: var(--bg-color);
+}
+
+.menu-pg .tabs {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  transform: translateX(-50%);
+}
+
+.menu-pg .tab-menu {
+  border-radius: 50%;
+  border: none;
+  width: 80px;
+  height: 80px;
+}
+
+.menu-pg .tab-menu.active {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+}
+
+.menu-pg .content {
+  padding: 0;
+  padding: 190px 0 120px;
+}
+
+.content .d-flex {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.food-img img {
+  width: 100%;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.food-img {
+  position: relative;
+}
+
+.food-img span {
+  background-color: var(--secondary-color);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: var(--font-amatic);
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .menu-pg .tab-menu {
+    width: 80px;
+    height: 80px;
+    padding: 0.781vw;
+  }
+
+  .menu-pg .tabs {
+    width: 80%;
+    top: -27px;
+  }
+
+  .food-img {
+    width: 24.33%;
+  }
+
+  .food-img span {
+    height: 3.203vw;
+    width: 17.188vw;
+    padding: 0;
+    font-size: 2.344vw;
+  }
+
+  .menu-pg .content {
+    padding: 12.188vw 0 9.375vw;
+  }
+
+  .content .d-flex {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .menu-pg .tab-menu {
+    width: 10.417vw;
+    height: 10.417vw;
+    padding: 0.651vw;
+  }
+
+  .menu-pg .tabs {
+    width: 90%;
+    top: -27px;
+  }
+
+  .food-img {
+    width: 40%;
+  }
+
+  .food-img span {
+    padding: 0.651vw 5.208vw;
+    width: 28.646vw;
+    font-size: 3.906vw;
+  }
+
+  .menu-pg .content {
+    padding: 50px 0;
+  }
+
+  .content .d-flex {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .menu-pg .content {
+    padding: 20.313vw 0 15.625vw;
+  }
+
+  .content .d-flex {
+    justify-content: space-between;
+  }
+
+}

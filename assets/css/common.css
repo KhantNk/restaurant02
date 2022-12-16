@@ -1,0 +1,163 @@
+:root {
+  --main-text-color: #2C2E2E;
+  --primary-color: #FFFFFF;
+  --secondary-color: #D50C0D;
+  --gray-color: #A2A2A2;
+  --bg-color: #1C1C1C;
+  --ttl-color: #333333;
+
+  --font-rockwell: 'Rockwell', sans-serif;
+  --font-amatic: 'Amatic', sans-serif;
+  --font-gothic: 'Gothic', sans-serif;
+  --font-awesome: 'FontAwesome';
+
+}
+
+@font-face {
+  font-family: Rockwell;
+  font-weight: normal;
+  src: url('../font/Rockwell Nova W07 Cond Bold.TTF');
+}
+
+@font-face {
+  font-family: Amatic;
+  font-weight: normal;
+  src: url('../font/AmaticSC-Regular_2.ttf');
+}
+
+@font-face {
+  font-family: Gothic;
+  font-weight: normal;
+  src: url('../font/CenturyGothic.ttf');
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  src: url(../font/fontawesome-free-6.0.0-web);
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: var(--font-rockwell);
+  font-size: 50px;
+}
+
+
+h3 {
+  font-family: var(--font-amatic);
+  color: #8D8D8D;
+  font-size: 30px;
+}
+
+p {
+  font-family: var(--font-gothic);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+a {
+  font-family: var(--font-amatic);
+  color: var(--bg-color);
+  font-size: 30px;
+}
+
+.red {
+  font-family: var(--font-rockwell);
+  font-size: 50px;
+  color: #D50C0D;
+}
+
+.cmn-btn {
+  display: inline-block;
+  width: 210px;
+  padding: 6px 0;
+  border: 2px solid var(--bg-color);
+  color: var(--main-text-color);
+  text-align: center;
+  font-weight: bold;
+}
+
+.cmn-visual {
+  background-image: url(../img/banner01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: top center;
+  padding: 219px 148px;
+  color: var(--primary-color);
+}
+
+.primary-btn {
+  display: inline-block;
+  width: 210px;
+  padding: 6px 0;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.cmn-py {
+  padding: 80px 0;
+}
+
+.py-30 {
+  padding: 30px 0;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .red {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 3vw;
+  }
+
+  .red {
+    font-size: 30px;
+  }
+}

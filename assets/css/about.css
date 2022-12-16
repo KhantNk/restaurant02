@@ -1,0 +1,145 @@
+.discover-sec {
+  background-color: #1c1c1c;
+  color: var(--primary-color);
+  padding: 76px 35px;
+}
+
+.discover-sec .d-flex {
+  gap: 10px;
+}
+
+.story-txt {
+  flex: 1 1 45%;
+  text-align: right;
+}
+
+.story-txt p {
+  padding-right: 20px;
+}
+
+.story-txt .primary-btn {
+  margin-right: 20px;
+}
+
+.story-img {
+  flex: 1 1 45%;
+}
+
+.story-img img {
+  max-width: 588px;
+  width: 100%;
+}
+
+.team-sec {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.team-sec ul {
+  display: flex;
+  gap: 30px;
+  padding-top: 130px;
+  flex-wrap: wrap;
+}
+
+.chef-team span img {
+  max-width: 200px;
+  min-height: 200px;
+}
+
+.chef-team {
+  position: relative;
+  flex: 1 1 31%;
+  width: 100%;
+}
+
+.chef-team h3{
+  font-family: var(--font-gothic);
+  font-size: 30px;
+  color: var(--ttl-color);
+  font-weight: bold;
+}
+
+.chef-team h4{
+  font-family: var(--font-amatic);
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+.chef-team span {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.chef-txt {
+  padding: 126px 34px 30px 34px;
+  background-color: #F9F9F9;
+  max-width: 382px;
+}
+
+.chef-txt:hover {
+  box-shadow: 0 3px 6px #707070;
+  transition: 0.8s;
+}
+
+.social-ico.d-flex{
+  padding-top: 20px;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social-ico img{
+  width: 47px;
+  height: 47px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .discover-sec .d-flex{
+    flex-direction: column;
+  }
+
+  .discover-sec .story-txt{
+    text-align: center;
+  }
+
+  .chef-team {
+    flex: 1 1 33.33%;
+  }
+
+  .chef-team:nth-child(3){
+    margin-top: 100px;
+  }
+
+  .chef-txt{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767.9px){
+  .discover-sec .d-flex {
+    flex-direction: column;
+  }
+
+  .discover-sec .story-txt {
+    text-align: center;
+  }
+
+  .team-sec ul{
+    flex-direction: column;
+    gap: 130px;
+  }
+
+  .chef-txt {
+    margin: 0 auto;
+  }
+
+  .story-img {
+    padding-top: 20px;
+  }
+
+  .chef-team h3 {
+    font-size: 20px;
+  }
+}
