@@ -8,6 +8,7 @@
   left: 50%;
   top: -40px;
   transform: translateX(-50%);
+  width: 60%;
 }
 
 .menu-pg .tab-menu {
@@ -15,7 +16,20 @@
   border: none;
   width: 80px;
   height: 80px;
+  position: relative;
 }
+
+.menu-pg .tabs span {
+  position: absolute;
+  bottom: -60px;
+  font-family: var(--font-amatic);
+  font-size: 40px;
+  color: var(--primary-color);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+}
+
 
 .menu-pg .tab-menu.active {
   background-color: var(--primary-color);
@@ -27,8 +41,12 @@
   padding: 190px 0 120px;
 }
 
+.content .food-img {
+  width: 20%;
+}
+
 .content .d-flex {
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 80px;
 }
@@ -69,8 +87,13 @@
     top: -27px;
   }
 
-  .food-img {
-    width: 24.33%;
+  .menu-pg .tabs span {
+    font-size: 3vw;
+    bottom: -45px;
+  }
+
+  .content .food-img {
+    width: 20%;
   }
 
   .food-img span {
@@ -86,6 +109,7 @@
 
   .content .d-flex {
     justify-content: flex-start;
+    gap: 41px;
   }
 }
 
@@ -93,7 +117,7 @@
   .menu-pg .tab-menu {
     width: 10.417vw;
     height: 10.417vw;
-    padding: 0.651vw;
+    padding: 1.651vw;
   }
 
   .menu-pg .tabs {
@@ -101,14 +125,18 @@
     top: -27px;
   }
 
-  .food-img {
+  .menu-pg .tabs span {
+    bottom: -40px;
+    font-size: 4vw;
+  }
+
+  .content .food-img {
     width: 40%;
   }
 
   .food-img span {
-    padding: 0.651vw 5.208vw;
     width: 28.646vw;
-    font-size: 3.906vw;
+    font-size: 4vw;
   }
 
   .menu-pg .content {
@@ -117,7 +145,7 @@
 
   .content .d-flex {
     flex-wrap: wrap;
-    gap: 0;
+    column-gap: 20px;
   }
 
   .menu-pg .content {

@@ -102,6 +102,11 @@ a {
   font-weight: bold;
 }
 
+.cmn-btn:hover{
+   box-shadow: 0 3px 6px #707070;
+   transition: 0.5s;
+}
+
 .cmn-visual {
   background-image: url(../img/banner01.jpg);
   background-repeat: no-repeat;
@@ -119,6 +124,11 @@ a {
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
   text-align: center;
+}
+
+.primary-btn:hover {
+  box-shadow: 0 3px 6px #FFFFFF;
+   transition: 0.5s;
 }
 
 .cmn-py {
@@ -151,10 +161,6 @@ a {
 
   h1 {
     font-size: 30px;
-  }
-
-  p{
-    font-size: 3vw;
   }
 
   .red {
