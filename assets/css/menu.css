@@ -61,8 +61,8 @@
   padding: 190px 0 120px;
 }
 
-.content .d-flex {
-  justify-content: space-between;
+.menu-pg .content .d-flex {
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 80px;
 }
@@ -75,6 +75,7 @@
 
 .food-img {
   position: relative;
+  width: 20%;
 }
 
 .food-img span {
@@ -105,7 +106,7 @@
   }
 
   .food-img {
-    width: 24.33%;
+    width: 25%;
   }
 
   .food-img span {
@@ -154,9 +155,9 @@
     padding: 50px 0;
   }
 
-  .content .d-flex {
+  .menu-pg .content .d-flex {
     flex-wrap: wrap;
-    gap: 0;
+    gap: 63px;
   }
 
   .menu-pg .content {

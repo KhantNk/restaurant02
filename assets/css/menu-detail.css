@@ -193,7 +193,8 @@
   }
 
   .slick-slider span {
-    padding: 0;
+        font-size: 3vw;
+        padding: 5px;
   }
 
 }

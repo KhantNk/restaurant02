@@ -39,6 +39,7 @@
 
 body {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .container {
@@ -102,9 +103,10 @@ a {
   font-weight: bold;
 }
 
-.cmn-btn:hover{
-   box-shadow: 0 3px 6px #707070;
-   transition: 0.5s;
+.cmn-btn:hover {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  transition: 0.5s;
 }
 
 .cmn-visual {
@@ -127,8 +129,9 @@ a {
 }
 
 .primary-btn:hover {
-  box-shadow: 0 3px 6px #FFFFFF;
-   transition: 0.5s;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  transition: 0.5s;
 }
 
 .cmn-py {
@@ -152,6 +155,10 @@ a {
   .red {
     font-size: 30px;
   }
+
+  .cmn-visual {
+    padding: 150px 0;
+  }
 }
 
 @media screen and (max-width: 767.9px) {
@@ -165,5 +172,9 @@ a {
 
   .red {
     font-size: 30px;
+  }
+
+  .cmn-visual {
+    padding: 150px 0;
   }
 }
