@@ -11,8 +11,12 @@
 
 .mv-blk {
   padding-top: 190px;
+.mv-blk {
+  padding-top: 190px;
 }
 
+.mv-blk .txt-blk {
+  width: 450px;
 .mv-blk .txt-blk {
   width: 450px;
 }
@@ -158,8 +162,8 @@
 
 .price-tag {
   position: absolute;
-  bottom: -15%;
-  right: 21%;
+  top: 87%;
+  right: 20%;
   padding: 0px 40px;
   background-color: rgba(255, 255, 255, 0.8);
   transform: translateY(-50%);
@@ -683,12 +687,6 @@
     width: 90%;
   }
 
-  .dtl-list {
-    float: left;
-    width: 50%;
-    padding: 8% 3%;
-  }
-
   .dtl-list p {
     margin-top: 7.5%;
     width: 80%;
@@ -778,33 +776,36 @@
     position: relative;
   }
 
-  .tabs .menu img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .tabs .menu {
-    width: 111px;
-   font-size: 15px;
-  }
-
-  .tabs.flex-col {
-    padding-top: 0;
-    gap: 25px;
-  }
-
-  .tag-img img {
-    position: absolute;
-    left: 33%;
-    height: auto;
-  }
-
-  .mv-blk .txt-blk {
+  .mv-txt p {
+    max-width: 290px;
     width: 100%;
   }
 
+  .dot-img {
+    top: 9%;
+    right: -7%;
+  }
+
+  .secdot-img {
+    display: none;
+  }
+
+  .tag-img img {
+    left: 37%;
+    width: 60%;
+    z-index: -1;
+    top: 23%;
+  }
+
+  .tabs {
+    top: 15%;
+    right: 5%;
+  }
+
   .price-tag {
-   display: none;
+    top: 64%;
+    right: 9%;
+    padding: 10px 30px;
   }
 
   .price-ttl,
