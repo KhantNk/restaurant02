@@ -19,7 +19,6 @@
 }
 
 .res-nav{
-  padding-top: 12px;
   text-align: end;
 }
 
@@ -28,13 +27,13 @@
 }
 
 .primary-nav.d-flex li {
-  padding: 2px 35px;
   border: 1px solid var(--secondary-color);
   border-radius: 50px;
   background-color: var(--primary-color);
 }
 
 .primary-nav.d-flex li a {
+  padding: 2px 35px;
   font-family: var(--font-rockwell);
   font-size: 18px;
 }
@@ -88,12 +87,13 @@
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 10px;
   }
 
   .menu-icon {
     display: block;
   }
+  
 
   .menu-close {
     display: none;
@@ -168,7 +168,7 @@
   align-items: flex-end;
   flex-direction: column;
   width: 100%;
-  padding-top: 25px;
+  padding-top: 9px;
 }
 
 .menu-icon {
