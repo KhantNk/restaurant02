@@ -11,12 +11,8 @@
 
 .mv-blk {
   padding-top: 190px;
-.mv-blk {
-  padding-top: 190px;
 }
 
-.mv-blk .txt-blk {
-  width: 450px;
 .mv-blk .txt-blk {
   width: 450px;
 }
@@ -162,8 +158,8 @@
 
 .price-tag {
   position: absolute;
-  top: 87%;
-  right: 20%;
+  bottom: -15%;
+  right: 27%;
   padding: 0px 40px;
   background-color: rgba(255, 255, 255, 0.8);
   transform: translateY(-50%);
@@ -246,13 +242,12 @@
 }
 
 .story-sec {
-  margin-top: 15%;
+  margin-top: 20%;
   text-align: center;
-  padding-bottom: 80px;
 }
 
 .shop-dtl {
-  margin-top: 60px;
+  margin: 60px 0;
 }
 
 .dtl-list {
@@ -687,6 +682,12 @@
     width: 90%;
   }
 
+  .dtl-list {
+    float: left;
+    width: 50%;
+    padding: 8% 3%;
+  }
+
   .dtl-list p {
     margin-top: 7.5%;
     width: 80%;
@@ -776,41 +777,34 @@
     position: relative;
   }
 
-  .mv-txt p {
-    max-width: 290px;
+  .mv-blk .txt-blk {
     width: 100%;
   }
 
-  .dot-img {
-    top: 9%;
-    right: -7%;
+  .tabs.flex-col {
+    gap: 25px;
+    padding-top: 0;
   }
 
-  .secdot-img {
-    display: none;
+  .tabs .menu {
+    width: 130px;
+    font-size: 4vw;
+    padding: 5px;
+  }
+
+  .tabs .menu img {
+    width: 25px;
+    height: 25px;
   }
 
   .tag-img img {
-    left: 37%;
-    width: 60%;
-    z-index: -1;
-    top: 23%;
-  }
-
-  .tabs {
-    top: 15%;
-    right: 5%;
+    position: absolute;
+    left: 33%;
+    height: auto;
   }
 
   .price-tag {
-    top: 64%;
-    right: 9%;
-    padding: 10px 30px;
-  }
-
-  .price-ttl,
-  .plate-ttl {
-    font-size: 20px;
+    display: none;
   }
 
   .mouse-scroll {
